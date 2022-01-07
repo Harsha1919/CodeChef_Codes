@@ -1,0 +1,10 @@
+n=int(input())
+a=[]
+for i in range(n):
+    x=int(input())
+    a.append(x)
+for i in range(n):
+    if(a[i]<10):
+        print("Thanks for helping Chef!")
+    else:
+        print(-1)
