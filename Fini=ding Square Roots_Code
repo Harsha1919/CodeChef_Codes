@@ -1,0 +1,10 @@
+def x(n):
+    sqr = n ** 0.5
+    sq_rt = round(sqr)
+    print(sq_rt)
+
+T = int(input())
+while T > 0:
+   n = int(input())
+   x(n)
+   T = T - 1
