@@ -1,0 +1,8 @@
+n=int(input())
+a=[]
+for i in range(n):
+    x=input()
+    res = int(x[::-1])
+    a.append(res)
+for i in range(n):
+    print(a[i])
