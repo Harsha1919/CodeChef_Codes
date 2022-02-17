@@ -1,0 +1,6 @@
+T = int(input())
+while T > 0:
+    m, n = map(int, input().split())
+    total = m + n 
+    print(max(m, n), total)
+    T = T - 1
