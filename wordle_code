@@ -1,0 +1,18 @@
+# cook your dish here
+n=int(input())
+x=[]
+for i in range(n*2):
+    x.append(input())
+res=[]
+for i in range(0,n*2,2):
+    p=x[i]
+    m=x[i+1]
+    a=''
+    for i in range(len(p)):
+        if(p[i]==m[i]):
+            a+='G'
+        else:
+            a+='B'
+    res.append(a)        
+for i in res:
+    print(i)
